@@ -39,7 +39,7 @@ data: id (8 bytes) address (2bytes) master_address (2bytes)
 address: master_address
 data_len: 0x0A
 data: id(8bytes) address(2bytes)
-
+```
 
 Device retries if:
 * no answert after sending AddressRequestPackage (timedelta needs to be randomized)
